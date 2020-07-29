@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+         print("Hi I am here")
     }
 
     @IBAction func TopicPressed(_ sender: Any) {
