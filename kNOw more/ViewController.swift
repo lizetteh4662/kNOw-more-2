@@ -15,6 +15,19 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func TopicPressed(_ sender: Any) {
+        let yourView = sender as! UIButton
+        print("Hello hi")
+        yourView.layer.borderWidth = 5
+        yourView.layer.borderColor = UIColor.red.cgColor
+    }
+    @IBAction func submit(_ sender: Any) {
+        self.performSegue(withIdentifier:"SecondScreen", sender: nil)
+    }
+   /*
+     override func prepare(for segue:UIStoryboardSegue,sender: Any?){
+        let nextScreen = segue.destination as! SecondScreen
+        
+    }*/
 
 }
-
