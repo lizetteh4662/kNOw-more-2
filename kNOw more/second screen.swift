@@ -12,9 +12,11 @@ import UIKit
 
 class SecondScreen: UIViewController {
 
-    @IBOutlet weak var homeButton: UIButton!
-    @IBOutlet weak var directMessage: UIButton!
-    @IBOutlet weak var newMessage: UIButton!
 
-    @IBOutlet weak var profile: UIButton!
+
+    @IBAction func newMessages(_ sender: Any) {
+        self.performSegue(withIdentifier:"homePage", sender: nil)
+    }
+    @IBAction func profilePage(_ sender: Any) {
+    }
 }
