@@ -19,7 +19,11 @@ class ViewController: UIViewController {
     @IBAction func TopicPressed(_ sender: Any) {
         let yourView = sender as! UIButton
         print("Hello Worlds")
-        yourView.layer.borderWidth = 5
+        if yourView.layer.borderWidth > 0 {
+            yourView.layer.borderWidth = 0
+        } else {
+            yourView.layer.borderWidth = 5
+        }
         yourView.layer.borderColor = UIColor.red.cgColor
     }
     @IBAction func submit(_ sender: Any) {
