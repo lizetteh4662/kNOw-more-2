@@ -175,18 +175,19 @@
                         <outlet property="homeButton" destination="fTr-5o-5kv" id="G7i-cg-q4C"/>
                         <outlet property="newMessage" destination="Pw0-eJ-uMw" id="Nst-LM-qkp"/>
                         <outlet property="profile" destination="2jm-U4-Agf" id="ncH-Wo-gmi"/>
+                        <segue destination="o2F-Td-Ofd" kind="presentation" id="GzN-yf-9yX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YTg-XR-S8J" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="808.69565217391312" y="130.58035714285714"/>
         </scene>
-        <!--View Controller-->
+        <!--Home Screen-->
         <scene sceneID="Rzp-qe-Pdw">
             <objects>
-                <viewController id="o2F-Td-Ofd" sceneMemberID="viewController">
+                <viewController id="o2F-Td-Ofd" customClass="homeScreen" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WGd-BD-cVl">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="PQd-Mj-4E4"/>
