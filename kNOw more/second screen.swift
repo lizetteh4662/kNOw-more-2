@@ -12,10 +12,13 @@ import UIKit
 
 class SecondScreen: UIViewController {
 
-
+    @IBAction func dianaMessage(_ sender: Any) {
+        self.performSegue(withIdentifier:"message", sender: nil)
+    }
+    
 
     @IBAction func newMessages(_ sender: Any) {
-        self.performSegue(withIdentifier:"newMessage", sender: nil)
+        
     }
     @IBAction func profilePage(_ sender: Any) {
     }
