@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		421282DA24D123AB003E8DF6 /* homePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421282D924D123AB003E8DF6 /* homePage.swift */; };
+		421282DA24D123AB003E8DF6 /* profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421282D924D123AB003E8DF6 /* profile.swift */; };
 		421282E424D1E978003E8DF6 /* Group 58@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 421282DB24D1E977003E8DF6 /* Group 58@2x.png */; };
 		421282E524D1E978003E8DF6 /* Group 56@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 421282DC24D1E977003E8DF6 /* Group 56@2x.png */; };
 		421282E624D1E978003E8DF6 /* Group 60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 421282DD24D1E977003E8DF6 /* Group 60@2x.png */; };
@@ -33,7 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		421282D924D123AB003E8DF6 /* homePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homePage.swift; sourceTree = "<group>"; };
+		421282D924D123AB003E8DF6 /* profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profile.swift; sourceTree = "<group>"; };
 		421282DB24D1E977003E8DF6 /* Group 58@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Group 58@2x.png"; sourceTree = "<group>"; };
 		421282DC24D1E977003E8DF6 /* Group 56@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Group 56@2x.png"; sourceTree = "<group>"; };
 		421282DD24D1E977003E8DF6 /* Group 60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Group 60@2x.png"; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 		42F7AD8C24D0933D008A633F = {
 			isa = PBXGroup;
 			children = (
-				421282D924D123AB003E8DF6 /* homePage.swift */,
+				421282D924D123AB003E8DF6 /* profile.swift */,
 				42F7AD9724D0933D008A633F /* kNOw more */,
 				42F7AD9624D0933D008A633F /* Products */,
 			);
@@ -203,7 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				421282DA24D123AB003E8DF6 /* homePage.swift in Sources */,
+				421282DA24D123AB003E8DF6 /* profile.swift in Sources */,
 				42F7AD9D24D0933D008A633F /* ViewController.swift in Sources */,
 				42F7AD9924D0933D008A633F /* AppDelegate.swift in Sources */,
 				42F7ADC124D0DB79008A633F /* second screen.swift in Sources */,

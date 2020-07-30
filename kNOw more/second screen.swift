@@ -17,9 +17,8 @@ class SecondScreen: UIViewController {
     }
     
 
-    @IBAction func newMessages(_ sender: Any) {
-        
-    }
+
     @IBAction func profilePage(_ sender: Any) {
+        self.performSegue(withIdentifier:"profile", sender: nil)
     }
 }
