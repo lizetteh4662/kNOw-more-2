@@ -309,6 +309,7 @@
                     </view>
                     <connections>
                         <segue destination="o2F-Td-Ofd" kind="presentation" identifier="message" id="GzN-yf-9yX"/>
+                        <segue destination="rik-an-NVx" kind="presentation" identifier="profile" id="bzt-Qd-ftS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YTg-XR-S8J" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -461,12 +462,12 @@
             </objects>
             <point key="canvasLocation" x="1500.0000000000002" y="130.58035714285714"/>
         </scene>
-        <!--New Message-->
+        <!--Profile-->
         <scene sceneID="Ejk-nO-sk8">
             <objects>
-                <viewController id="rik-an-NVx" customClass="newMessage" sceneMemberID="viewController">
+                <viewController id="rik-an-NVx" customClass="profile" customModule="kNOw_more" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uCI-vN-Plf">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Rectangle 85" translatesAutoresizingMaskIntoConstraints="NO" id="Hxu-6L-dc1">
@@ -630,7 +631,7 @@
                                 <state key="normal" title="Button" image="image 6"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PY1-KS-4GT">
-                                <rect key="frame" x="213" y="825" width="103" height="71"/>
+                                <rect key="frame" x="213" y="770" width="103" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Group 67.png"/>
                                 <connections>
@@ -638,12 +639,15 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f5C-ge-h7y">
-                                <rect key="frame" x="3" y="825" width="104.5" height="71"/>
+                                <rect key="frame" x="3" y="770" width="104.5" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Group 65.png"/>
+                                <connections>
+                                    <action selector="directMessages:" destination="rik-an-NVx" eventType="touchUpInside" id="oSf-lA-Gbt"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5TK-TI-eI6">
-                                <rect key="frame" x="318" y="825" width="99" height="71"/>
+                                <rect key="frame" x="318" y="770" width="99" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Group 68.png"/>
                                 <connections>
@@ -651,7 +655,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uX4-gt-xxM">
-                                <rect key="frame" x="108" y="825" width="103" height="71"/>
+                                <rect key="frame" x="108" y="770" width="103" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Group 66.png"/>
                                 <connections>
@@ -664,16 +668,17 @@
                     </view>
                     <connections>
                         <segue destination="5ep-4K-GIP" kind="presentation" identifier="tokenScreen" id="L6I-s3-Ubx"/>
+                        <segue destination="AsN-5D-nAq" kind="presentation" identifier="goToMessages" id="UAT-Vd-nWJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IvT-HJ-OiK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2179.7101449275365" y="130.58035714285714"/>
         </scene>
-        <!--View Controller-->
+        <!--Tokens Screen-->
         <scene sceneID="J3c-7x-cab">
             <objects>
-                <viewController id="5ep-4K-GIP" sceneMemberID="viewController">
+                <viewController id="5ep-4K-GIP" customClass="tokensScreen" customModule="kNOw_more" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NwS-m2-cpW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -859,7 +864,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="EkH-Ph-cRM"/>
+        <segue reference="UAT-Vd-nWJ"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Group 28.png" width="127.5" height="108"/>

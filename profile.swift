@@ -11,8 +11,9 @@ import UIKit
 
 class profile: UIViewController {
 
-    @IBAction func dMessage(_ sender: Any) {
-       
+
+    @IBAction func directMessages(_ sender: Any) {
+        self.performSegue(withIdentifier:"goToMessages", sender: nil)
     }
     @IBAction func tokens(_ sender: Any) {
         self.performSegue(withIdentifier:"tokenScreen", sender: nil)
