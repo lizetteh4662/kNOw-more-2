@@ -141,7 +141,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2jm-U4-Agf">
-                                <rect key="frame" x="313" y="771" width="103" height="71"/>
+                                <rect key="frame" x="211" y="771" width="103" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Group 67.png"/>
                                 <connections>
@@ -298,6 +298,11 @@
                                     <action selector="newMessages:" destination="AsN-5D-nAq" eventType="touchUpInside" id="cqT-V9-rPc"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oTd-Zz-eWj">
+                                <rect key="frame" x="316" y="771" width="98" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Group 78.png"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="r9b-9G-DBo"/>
@@ -323,32 +328,16 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.6364556905698715" green="0.75239528173515113" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rpv-E7-OZ2">
-                                <rect key="frame" x="0.0" y="771" width="110" height="71"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Group 64.png"/>
-                                <connections>
-                                    <action selector="homePage:" destination="AsN-5D-nAq" eventType="touchUpInside" id="uG4-Ma-oSO"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9c9-Nv-zgZ">
-                                <rect key="frame" x="209" y="771" width="103" height="71"/>
+                                <rect key="frame" x="107" y="771" width="103" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Group 66.png"/>
                                 <connections>
                                     <action selector="newMessages:" destination="AsN-5D-nAq" eventType="touchUpInside" id="mYL-Ch-INY"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mFT-Cc-Rms">
-                                <rect key="frame" x="313" y="771" width="103" height="71"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Group 67.png"/>
-                                <connections>
-                                    <action selector="profilePage:" destination="AsN-5D-nAq" eventType="touchUpInside" id="Uoh-h1-cqK"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="84e-Kx-4oR">
-                                <rect key="frame" x="104" y="771" width="104.5" height="71"/>
+                                <rect key="frame" x="0.0" y="771" width="104.5" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Group 65.png"/>
                             </button>
@@ -473,6 +462,19 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.63645569059999996" green="0.75239528170000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lkR-BW-XKU">
+                                <rect key="frame" x="316" y="771" width="98" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Group 78.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mFT-Cc-Rms">
+                                <rect key="frame" x="212" y="771" width="103" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Group 67.png"/>
+                                <connections>
+                                    <action selector="profilePage:" destination="AsN-5D-nAq" eventType="touchUpInside" id="Uoh-h1-cqK"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="PQd-Mj-4E4"/>
@@ -693,7 +695,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="AN5-Ja-Tw9"/>
+        <segue reference="GzN-yf-9yX"/>
+        <segue reference="EkH-Ph-cRM"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Group 28.png" width="127.5" height="108"/>
@@ -709,6 +712,7 @@
         <image name="Group 65.png" width="103.5" height="71"/>
         <image name="Group 66.png" width="104" height="71"/>
         <image name="Group 67.png" width="103" height="71"/>
+        <image name="Group 78.png" width="98" height="71"/>
         <image name="How-to-Be-Happy_732x549-thumbnail" width="813" height="725"/>
         <image name="Image" width="732" height="549"/>
         <image name="Image-1" width="390" height="407.5"/>
