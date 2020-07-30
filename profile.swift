@@ -12,6 +12,9 @@ import UIKit
 class profile: UIViewController {
 
     @IBAction func dMessage(_ sender: Any) {
-       self.performSegue(withIdentifier:"backToDM", sender: nil)
+       
+    }
+    @IBAction func tokens(_ sender: Any) {
+        self.performSegue(withIdentifier:"tokenScreen", sender: nil)
     }
 }

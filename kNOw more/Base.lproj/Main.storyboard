@@ -646,6 +646,9 @@
                                 <rect key="frame" x="318" y="825" width="99" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Group 68.png"/>
+                                <connections>
+                                    <action selector="tokens:" destination="rik-an-NVx" eventType="touchUpInside" id="wZB-PO-rK9"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uX4-gt-xxM">
                                 <rect key="frame" x="108" y="825" width="103" height="71"/>
@@ -659,6 +662,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="MGe-TI-Juy"/>
                     </view>
+                    <connections>
+                        <segue destination="5ep-4K-GIP" kind="presentation" identifier="tokenScreen" id="L6I-s3-Ubx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IvT-HJ-OiK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -669,7 +675,7 @@
             <objects>
                 <viewController id="5ep-4K-GIP" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NwS-m2-cpW">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Rectangle 104" translatesAutoresizingMaskIntoConstraints="NO" id="cLe-sE-Y4V">
@@ -817,7 +823,7 @@
                                 <color key="shadowColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tyl-cQ-C83">
-                                <rect key="frame" x="210" y="825" width="103" height="71"/>
+                                <rect key="frame" x="210" y="771" width="103" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Group 67.png"/>
                                 <connections>
@@ -825,12 +831,12 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0pQ-bq-Z4Z">
-                                <rect key="frame" x="0.0" y="825" width="104.5" height="71"/>
+                                <rect key="frame" x="0.0" y="771" width="104.5" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Group 65.png"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9mh-kQ-GVQ">
-                                <rect key="frame" x="105" y="825" width="103" height="71"/>
+                                <rect key="frame" x="105" y="771" width="103" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Group 66.png"/>
                                 <connections>
@@ -838,7 +844,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WZr-iH-F3i">
-                                <rect key="frame" x="315" y="825" width="99" height="71"/>
+                                <rect key="frame" x="315" y="771" width="99" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Group 68.png"/>
                             </button>
