@@ -17,8 +17,15 @@ class SecondScreen: UIViewController {
     }
     
 
-
     @IBAction func profilePage(_ sender: Any) {
         self.performSegue(withIdentifier:"profile", sender: nil)
+    }
+    @IBAction func addAFriend(_ sender: Any) {
+        self.performSegue(withIdentifier:"Makeafriend", sender: nil)
+    }
+
+    
+    @IBAction func tokens(_ sender: Any) {
+        self.performSegue(withIdentifier:"tokens", sender: nil)
     }
 }

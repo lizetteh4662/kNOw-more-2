@@ -12,6 +12,8 @@ import UIKit
 
 class message: UIViewController {
     
+    @IBAction func textfield(_ sender: Any) {
+    }
     @IBAction func backButton(_ sender: Any) {
         self.performSegue(withIdentifier:"gobacktoDM", sender: nil)
     }

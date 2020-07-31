@@ -1,8 +1,8 @@
 //
-//  profile.swift
+//  homePage.swift
 //  kNOw more
 //
-//  Created by Lizette Hernandez on 7/30/20.
+//  Created by Lizette Hernandez on 7/28/20.
 //  Copyright © 2020 XELS. All rights reserved.
 //
 
@@ -19,8 +19,7 @@ class profile: UIViewController {
     @IBAction func directMessage(_ sender: Any) {
         self.performSegue(withIdentifier:"profileToDM", sender: nil)
     }
-
-    @IBAction func token(_ sender: Any) {
+    @IBAction func tokens(_ sender: Any) {
         self.performSegue(withIdentifier:"tokenScreen", sender: nil)
     }
 }
